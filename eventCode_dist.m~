@@ -9,7 +9,7 @@ row = 1;
 %     cur_dir = list{pp};
 %     cd(cur_dir);
 
-    load Cajal_scalar_data_4_10_17.mat
+    load Cajal_scalar_data_4_10.mat
     total_ec_size = Cajal_data.scalars.EVNT.data;
     g=unique(Cajal_data.scalars.EVNT.data);
     g_size=size(g);
